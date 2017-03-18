@@ -1,22 +1,22 @@
 {
-  "name": "update-doc-license",
+  "name": "update-readme-license",
   "version": "0.0.0",
-  "description": "A plugin for `update-doc` to auto-generate the License section of your README from package.json",
+  "description": "A plugin for `update-readme` to auto-generate the License section of your README from package.json",
   "main": "license.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/update-doc/update-doc-license.git"
+    "url": "git+https://github.com/update-readme/update-readme-license.git"
   },
   "keywords": [],
   "author": "William Hilton <wmhilton@gmail.com>",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/update-doc/update-doc-license/issues"
+    "url": "https://github.com/update-readme/update-readme-license/issues"
   },
-  "homepage": "https://github.com/update-doc/update-doc-license#readme",
+  "homepage": "https://github.com/update-readme/update-readme-license#readme",
   "dependencies": {
     "spdx-license-list": "^3.0.1"
   }

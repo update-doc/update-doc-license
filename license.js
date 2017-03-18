@@ -21,4 +21,4 @@ module.exports = function (section) {
   section.body.push('')
   return
 }
-module.exports.section = 'license'
+module.exports.title = 'License'

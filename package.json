@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/update-readme/update-readme-license#readme",
   "dependencies": {
+    "normalize-package-data": "^2.3.6",
     "spdx-license-list": "^3.0.1"
   }
 }

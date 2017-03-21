@@ -4,7 +4,8 @@
   "description": "A plugin for `update-readme` to auto-generate the License section of your README from package.json",
   "main": "license.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard --fix"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "dependencies": {
     "normalize-package-data": "^2.3.6",
     "spdx-license-list": "^3.0.1"
+  },
+  "devDependencies": {
+    "standard": "^9.0.2"
   }
 }

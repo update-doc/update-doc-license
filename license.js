@@ -4,7 +4,7 @@ const spdxSet = require('spdx-license-list/simple')
 const spdx = require('spdx-license-list/full')
 const normalizeData = require('normalize-package-data')
 
-module.exports = function (sections, pluginOptions) {
+module.exports = function (sections, pluginOptions = {}) {
   let long = Boolean(pluginOptions.long)
   let pkg = require(path.join(process.cwd(), 'package.json'))
   normalizeData(pkg)
